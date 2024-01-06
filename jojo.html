@@ -79,8 +79,8 @@ div.sticky {
         background-color: rgb(222, 67, 147);
         width: 50%;
         
-        padding-top: 23px;
-        
+        padding-top: 17px;
+        height: 63px;
         text-decoration: none;
         
         
@@ -91,11 +91,14 @@ div.sticky {
         background-color: rgb(222, 67, 147);
         width: 50%;
         text-align: left;
-        padding-top: 13px;
+        
         padding-left: 5px;
         font-family:STCaiyun;
         font-size: 40px;
         color: rgb(230, 222, 222);
+        margin: 0px;
+        height: 80px;
+        
     }
     .li{
         padding-left: 0px;
@@ -108,6 +111,8 @@ div.sticky {
         text-indent: 50px;
         margin-right: 10px;
         padding: 10px;
+        padding-bottom: 10px;
+        
         
     }
     .li:hover{
@@ -118,21 +123,24 @@ div.sticky {
        margin-left: 10px;
        margin-right: 10px;
     }
-    @media only screen and (max-width:560px){
+    @media only screen and (min-width:320px){
         .li{
-            font-size: 14px;
-            padding: 0px;
-            margin: 4px;
-        }
-    }
-    @media only screen and (max-width:560px){
-        .po{
-            font-size: 14px;
-            padding-top: 27px;
+            font-size: 25px;
+            padding-top: 0px;
+            
             
         }
     }
-    @media only screen and (max-width:560px){
+    @media only screen and (min-width:320px){
+        .po{
+            font-size: 28px;
+            padding-top: 0px;
+            padding-left: 15px
+            
+            
+        }
+    }
+    @media only screen and (min-width:320px){
         .banner,.div.sticky{
             margin-bottom: 0px;
             width: 600px;
@@ -140,14 +148,14 @@ div.sticky {
             
         }
     }
-    @media only screen and (max-width:560px){
+    @media only screen and (min-width:320px){
+        
+        .pic1{
+            width: 964px;
+            object-fit: cover;
+        }
         .pic2{
             display: none;
-            
-            
-        }
-        .pic1{
-            width: 388px
         }
         .do1{
             width: 200px;
@@ -186,6 +194,10 @@ div.sticky {
         -webkit-text-stroke: 1px red;
         font-size: 18px;
     }
+    .we{
+        margin: 0px;
+        margin-top: 30px;
+    }
     
 </style>
 </head>
@@ -196,7 +208,7 @@ div.sticky {
 <div class="sticky">
     
     <div class="po">
-        WELLCOME TO DONUT ZONE
+        <p class="we">WELLCOME TO DONUT ZONE</p>
     </div>
     <div class="bar">
         
@@ -213,7 +225,7 @@ div.sticky {
 <div class="banner">
     
     <img class="pic1" src="img/my.jpg">
-    <img class="pic2" style="width: 635px;" src="img/my.jpg">
+    <img class="pic2" src="img/my.jpg">
 
 </div>
 
