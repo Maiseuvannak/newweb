@@ -22,21 +22,24 @@ div.sticky {
 }
 
 .box1{
-        background-color: aqua;
+        background-color: rgb(228, 113, 201);
         
-        height: 100px;
+        height: 300px;
         width: 300px;
         margin-bottom: 2000px;
     }
     .box2{
-        width: 300px;
-        background-color: aqua;
+        width: 180px;
+        background-color: rgb(228, 113, 201);
+        
         margin-left: 10px;
-        height: 200px;
+        height: 300px;
     }
     .Mycontain,.header{
         display: flex;
-        background-color: rgb(116, 137, 120);
+        
+        width: 370px;
+        margin-top: 17px;
     }
     .img{
         width: 130px;
@@ -48,7 +51,7 @@ div.sticky {
 
     }
     .pic2,.pic1{
-        width: 667px;
+        width: 567px;
         text-align: center;
         align-items: center;
         
@@ -112,23 +115,24 @@ div.sticky {
         
     }
     .Mycontain{
-        margin: 20px;
+       margin-left: 10px;
+       margin-right: 10px;
     }
-    @media only screen and (max-width:700px){
+    @media only screen and (max-width:420px){
         .li{
-            font-size: 18px;
+            font-size: 14px;
             padding: 0px;
-            margin: 7px;
+            margin: 4px;
         }
     }
-    @media only screen and (max-width:700px){
+    @media only screen and (max-width:420px){
         .po{
-            font-size: 20px;
+            font-size: 14px;
             padding-top: 27px;
             
         }
     }
-    @media only screen and (max-width:700px){
+    @media only screen and (max-width:420px){
         .banner,.div.sticky{
             margin-bottom: 0px;
             width: 600px;
@@ -136,25 +140,34 @@ div.sticky {
             
         }
     }
-    @media only screen and (max-width:700px){
+    @media only screen and (max-width:420px){
         .pic2{
             display: none;
             
             
         }
+        .pic1{
+            width: 388px
+        }
+        .do1{
+            width: 200px;
+            display: ;
+            height: 200px
+        }
         .banner{
             background-color: ;
-            width: 567px;
+            width: 388px;
             margin-bottom: 5px;
+            object-fit:cover;
         }
     }
     .do1,.do2{
-        width: 300px;
+        width: 180px;
         object-fit:cover;
-        height: 200px;
+        height: 150px;
     }
     .dec{
-        font-size: 23px;
+        font-size: 13px;
         margin: 0px;
         color: white;
         font-family: Forte;
@@ -172,9 +185,6 @@ div.sticky {
         color: black;
         -webkit-text-stroke: 1px red;
         font-size: 18px;
-    }
-    .span{
-        color: rgb(225, 26, 145);
     }
     
 </style>
